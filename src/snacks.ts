@@ -1,4 +1,5 @@
-const snacks: string[] = ['cookies', 'fruit', 'corndogs', 'chips', 'soda'];
+// src/snacks.ts
+const snacks: string[] = ['yogurt', 'chips', 'fruit', 'cookies', 'corndogs', 'soda'];
 
 export function print() {
   for (const snack of snacks) {
