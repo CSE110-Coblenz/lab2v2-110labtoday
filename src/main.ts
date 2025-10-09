@@ -1,5 +1,7 @@
-import { printSnacks } from "./snacks";
+import { print } from './snacks';
+
 function main() {
-    printSnacks();
+  print();
 }
+
 main();
