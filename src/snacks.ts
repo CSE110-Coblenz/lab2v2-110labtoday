@@ -8,7 +8,9 @@ export function printSnacks() {
         animateFeature(snack, 'italic');
     }
 }
-const snacks2: string[] = ['cookies', 'fruit', 'corndogs','chips','soda']
+//little comment 
+
+const snacks1: string[] = ['cookies', 'fruit', 'corndogs','chips','soda']
 for (const snack of snacks) {
     console.log(snack);
 }
