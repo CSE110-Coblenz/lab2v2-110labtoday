@@ -1,9 +1,9 @@
 import { animateFeature } from './animation';
 const snacks: string[] = ['cookies', 'fruit', 'corndogs']
-animateFeature('Party! Party! Party! - Snacks Time', 'bold');
-console.log('Here are your snacks:');
 
 export function printSnacks() {
+    animateFeature('Party! Party! Party! - Snacks Time', 'bold');
+    console.log('Here are your snacks:');
     for (const snack of snacks) {
         animateFeature(snack, 'italic');
     }
