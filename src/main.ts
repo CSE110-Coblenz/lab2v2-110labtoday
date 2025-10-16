@@ -1,4 +1,4 @@
-import { printSnacks } from "./snacks";
+import { printSnacks } from "./snacks.js";
 function main() {
     printSnacks();
 }
