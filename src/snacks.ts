@@ -1,5 +1,7 @@
-// src/snacks.ts
-const snacks: string[] = ['yogurt', 'chips', 'fruit', 'cookies', 'corndogs', 'soda'];
+import { animateFeature } from './animation';
+const snacks: string[] = ['cookies', 'fruit', 'corndogs']
+animateFeature('Party! Party! Party! - Snacks Time', 'bold');
+console.log('Here are your snacks:');
 
 export function printSnacks() {
     for (const snack of snacks) {
