@@ -9,6 +9,7 @@ export function printSnacks() {
     }
 }
 //little comment 
+ 
 
 const snacks2: string[] = ['cookies', 'fruit', 'corndogs','chips','soda']
 for (const snack of snacks) {
