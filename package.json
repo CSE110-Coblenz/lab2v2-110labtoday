@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Fresh repository with main branch.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest run"
   },

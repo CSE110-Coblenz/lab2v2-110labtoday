@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { snacks } from "./snacks";
+import { snacks } from "./snacks.js";
 
 describe("snacks", () => {
   it("should have at least 3 items", () => {

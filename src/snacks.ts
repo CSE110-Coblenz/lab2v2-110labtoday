@@ -1,4 +1,4 @@
-import { animateFeature } from './animation';
+import { animateFeature } from './animation.js';
 
 export const snacks: string[] = ['cookies', 'fruit', 'corndogs', 'sandwiches', 'juice', 'chips']
 
