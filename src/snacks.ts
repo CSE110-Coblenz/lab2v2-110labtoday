@@ -1,5 +1,6 @@
 import { animateFeature } from './animation';
-const snacks: string[] = ['cookies', 'fruit', 'corndogs', 'sandwiches', 'juice', 'chips']
+
+export const snacks: string[] = ['cookies', 'fruit', 'corndogs', 'sandwiches', 'juice', 'chips']
 
 export function printSnacks() {
     animateFeature('Party! Party! Party! - Snacks Time', 'bold');
