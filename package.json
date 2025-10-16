@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/CSE110-Coblenz/lab2v2-110labtoday#readme",
   "dependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   }
 }
